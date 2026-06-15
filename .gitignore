@@ -1,0 +1,12 @@
+.Rhistory
+.RData
+.Rproj.user/
+*.sas7bdat
+*.csv
+*.rds
+*.xlsx
+*.docx
+*.pptx
+/Data/
+/notebooks/
+/shared/

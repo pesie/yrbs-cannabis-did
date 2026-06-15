@@ -7,21 +7,29 @@ All analyses were conducted in R (version 4.4.0).
 
 ---
 
+## Data access
+
+Raw YRBS data must be requested from CDC. State-provided data require
+individual data sharing agreements. Neither the raw data nor derived
+datasets are included in this repository.
+
+This repository is shared as a methods demonstration. The associated
+manuscript was not submitted for publication.
+
+---
+
 ## To reproduce
 
 Update paths in `00_setup.R` before running on a new machine.
 
 **Step 1: Build panel data** (run once on raw YRBS files)
+
 ```r
 source("Code/build_panel_data.R")
 ```
 
 **Step 2: Run analysis**
+
 ```r
 source("Code/run_analysis.R")
 ```
----
-
-## Data access
-
-Raw YRBS data must be requested from CDC. State-provided data require individual data sharing agreements. Neither the raw data nor derived datasets are included in this repository.

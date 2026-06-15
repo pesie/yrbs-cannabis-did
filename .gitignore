@@ -1,6 +1,6 @@
 .Rhistory
 .RData
-/.Rproj.user/
+.Rproj.user/
 .DS_Store
 *.sas7bdat
 *.csv
